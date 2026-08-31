@@ -117,3 +117,60 @@ Create an interactive Power BI dashboard to track important e-commerce sales KPI
 - Top products and countries were identified based on revenue.
 - Interactive filters allow users to explore sales performance.
 
+# Task 3.1: Data Integration & Feature Engineering
+
+## Objective
+Combine sales, product, and customer data using Pandas and create calculated features.
+
+## Dataset
+Superstore Sales Dataset — Kaggle
+
+## Tools Used
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+
+## Analysis Performed
+- Created Sales, Products, and Customers datasets
+- Merged datasets using Pandas
+- Calculated Total Revenue
+- Calculated Profit Margin
+- Calculated Customer Lifetime Value (CLV)
+- Analyzed top customers, products, and categories
+
+## Key Insights
+- Identified top customers and products by revenue.
+- Compared revenue and profit across categories.
+- Analyzed profit margins and customer lifetime value.
+
+# Task 3.2: A/B Testing & Hypothesis Testing
+
+## Objective
+Compare two marketing groups using A/B testing and statistical hypothesis testing.
+
+## Dataset
+Marketing A/B Testing Dataset — Kaggle
+
+## Tools Used
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- SciPy
+- Matplotlib
+
+## Analysis Performed
+- Compared Ad and PSA groups
+- Calculated conversion rates
+- Performed Chi-square test
+- Performed T-test
+- Performed ANOVA
+- Visualized conversion rates
+
+## Key Insights
+- Ad group conversion rate: **2.55%**
+- PSA group conversion rate: **1.78%**
+- Chi-square test showed a statistically significant difference.
+- Ad campaign performed better in terms of conversions.
