@@ -174,3 +174,64 @@ Marketing A/B Testing Dataset — Kaggle
 - PSA group conversion rate: **1.78%**
 - Chi-square test showed a statistically significant difference.
 - Ad campaign performed better in terms of conversions.
+
+# Task 4.1: Predictive Modeling & Machine Learning
+
+## Objective
+Build basic machine learning models to predict order delivery time from historical e-commerce data.
+
+## Dataset
+Olist Brazilian E-Commerce Dataset — Kaggle
+
+## Tools Used
+- Python
+- Google Colab
+- Pandas
+- Scikit-learn
+
+## Analysis Performed
+- Loaded and merged orders and order items data
+- Calculated delivery days (target variable)
+- Removed missing values and extreme outliers
+- Selected price and freight value as input features
+- Split data into training and testing sets (80/20)
+- Built Linear Regression, Decision Tree, and KNN models
+- Evaluated models using R² score and Mean Absolute Error (MAE)
+
+## Key Insights
+- Compared the three models using R² and MAE.
+- Best performing model: [model name] (R² = [value], MAE = [value] days)
+- Price and freight alone give modest accuracy; more features could improve predictions.
+
+## Files
+- project1_ml.ipynb
+
+# Task 4.2: Automation & Reporting
+
+## Objective
+Automate data cleaning, analysis, and reporting using Python, and send the report to Google Sheets.
+
+## Dataset
+Olist Brazilian E-Commerce Dataset — Kaggle
+
+## Tools Used
+- Python
+- Google Colab
+- Pandas
+- Matplotlib
+- Google Sheets API (gspread)
+
+## Analysis Performed
+- Loaded and cleaned the data (removed missing values and duplicates)
+- Built a monthly revenue and order count report
+- Visualized monthly revenue trend
+- Sent the report automatically to Google Sheets
+- Created a reusable run_report() function to update the sheet with one call
+
+## Key Insights
+- Report generation is fully automated, with no manual copy-paste.
+- Monthly revenue trend is visible in both the chart and the Google Sheet.
+- The script can be scheduled daily or weekly (Task Scheduler or cron).
+
+## Files
+- project2_automation.ipynb
